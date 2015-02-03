@@ -1,0 +1,19 @@
+{
+  "name": "xor-crypt",
+  "repo": "robloach/xor-crypt",
+  "homepage": "http://github.com/robloach/xor-crypt",
+  "description": "Simple XOR string encryption library.",
+  "license": "MIT",
+  "version": "0.0.1",
+  "keywords": [
+    "encryption"
+  ],
+  "main": "xor-crypt.js",
+  "scripts": [
+    "xor-crypt.js"
+  ],
+  "files": [
+    "xor-crypt.js"
+  ],
+  "demo": "https://github.com/RobLoach/xor-crypt"
+}

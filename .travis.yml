@@ -1,0 +1,10 @@
+# v1.3.21 June 23, 2014
+# https://github.com/bevry/base
+language: node_js
+node_js:
+  - "0.10"
+cache:
+  directories:
+    - node_modules
+notifications:
+  email: false

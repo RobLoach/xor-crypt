@@ -1,0 +1,56 @@
+{
+  "name": "xor-crypt",
+  "title": "XOR Crypt",
+  "description": "Simple XOR string encryption library.",
+  "version": "0.0.1",
+  "keywords": [
+    "encryption"
+  ],
+  "badges": {
+    "travis": true,
+    "npm": true,
+    "david": true,
+    "daviddev": true,
+    "npmdownloads": true
+  },
+  "repo": "RobLoach/xor-crypt",
+  "homepage": "https://github.com/RobLoach/xor-crypt",
+  "author": "Rob Loach (http://github.com/RobLoach)",
+  "maintainers": [
+    "Rob Loach (https://github.com/RobLoach)"
+  ],
+  "browser": {
+    "xor-crypt": "xor-crypt.js"
+  },
+  "main": "xor-crypt.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RobLoach/xor-crypt.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RobLoach/xor-crypt/issues"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "devDependencies": {
+    "eslint": "~0.13.0",
+    "mocha": "~2.1.0",
+    "projectz": "~0.3.17",
+    "uglify-js": "~2.4.16"
+  },
+  "scripts": {
+    "pretest": "./node_modules/.bin/eslint xor-crypt.js test/test.js",
+    "test": "./node_modules/.bin/mocha",
+    "projectz": "./node_modules/.bin/projectz compile",
+    "build": "./node_modules/.bin/uglifyjs xor-crypt.js -o xor-crypt.min.js --comments --mangle",
+    "package": "npm install && npm run test && npm run projectz && npm run docs && npm run build"
+  },
+  "contributors": [
+    "RobLoach (https://github.com/RobLoach)"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "http://opensource.org/licenses/MIT"
+  }
+}

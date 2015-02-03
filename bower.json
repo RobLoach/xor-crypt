@@ -1,0 +1,24 @@
+{
+  "name": "xor-crypt",
+  "homepage": "http://github.com/robloach/xor-crypt",
+  "description": "XOR Crypt",
+  "version": "0.0.1",
+  "main": "xor-crypt.js",
+  "ignore": [
+    "*.json",
+    "test",
+    "example",
+    ".travis.yml",
+    ".gitignore",
+    "Gruntfile.js"
+  ],
+  "keywords": [
+    "encryption"
+  ],
+  "devDependencies": {
+    "eslint": "~0.13.0",
+    "mocha": "~2.1.0",
+    "projectz": "~0.3.17",
+    "uglify-js": "~2.4.16"
+  }
+}
