@@ -1,5 +1,5 @@
 /*!
- * XOR Crypt v0.0.1 - http://github.com/robloach/xor-crypt
+ * XOR Crypt v0.0.2 - http://github.com/robloach/xor-crypt
  * @license MIT
  *   http://opensource.org/licenses/MIT
  */

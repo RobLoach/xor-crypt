@@ -15,6 +15,9 @@ describe("XOR Crypt", function() {
 		assert.equal(xorCrypt("Ncjji&Qitjb", 6), "Hello World");
 	});
 
+	/**
+	 * Creates a random string.
+	 */
 	function randomString() {
 		var text = "";
 		var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";

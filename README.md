@@ -36,7 +36,7 @@ Simple XOR string encryption library.
 ### [Browserify](http://browserify.org/)
 - Use: `require('xor-crypt')`
 - Install: `npm install --save xor-crypt`
-- CDN URL: `//wzrd.in/bundle/xor-crypt@0.0.1`
+- CDN URL: `//wzrd.in/bundle/xor-crypt@0.0.2`
 
 ### [Ender](http://ender.jit.su/)
 - Use: `require('xor-crypt')`
@@ -133,7 +133,7 @@ No sponsors yet! Will you be the first?
 
 These amazing people have contributed code to this project:
 
-- [RobLoach](https://github.com/RobLoach) — [view contributions](https://github.com/RobLoach/xor-crypt/commits?author=RobLoach)
+- [Rob Loach](https://github.com/RobLoach) — [view contributions](https://github.com/RobLoach/xor-crypt/commits?author=RobLoach)
 
 [Become a contributor!](https://github.com/RobLoach/xor-crypt/blob/master/CONTRIBUTING.md#files)
 

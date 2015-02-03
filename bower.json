@@ -2,7 +2,7 @@
   "name": "xor-crypt",
   "homepage": "http://github.com/robloach/xor-crypt",
   "description": "XOR Crypt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "xor-crypt.js",
   "ignore": [
     "*.json",
@@ -20,5 +20,6 @@
     "mocha": "~2.1.0",
     "projectz": "~0.3.17",
     "uglify-js": "~2.4.16"
-  }
+  },
+  "dependencies": {}
 }

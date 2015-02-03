@@ -2,7 +2,7 @@
   "name": "xor-crypt",
   "title": "XOR Crypt",
   "description": "Simple XOR string encryption library.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [
     "encryption"
   ],
@@ -33,6 +33,7 @@
   "engines": {
     "node": ">=0.10"
   },
+  "dependencies": {},
   "devDependencies": {
     "eslint": "~0.13.0",
     "mocha": "~2.1.0",
@@ -47,7 +48,7 @@
     "package": "npm install && npm run test && npm run projectz && npm run docs && npm run build"
   },
   "contributors": [
-    "RobLoach (https://github.com/RobLoach)"
+    "Rob Loach (https://github.com/RobLoach)"
   ],
   "license": {
     "type": "MIT",
