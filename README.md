@@ -56,13 +56,13 @@ Simple XOR string encryption library.
 ## Usage
 
 ``` javascript
-var xorCrypt = require('xor-crypt');
-
-// Using the default XOR Key.
 var encrypted = xorCrypt('Hello World');
-var decrypted = xorCrypt(encrypted);
+// Outputs: Ncjji&Qitjb
 
-// Using your own XOR Key.
+var decrypted = xorCrypt(encrypted);
+// Outputs: Hello World
+
+// Use your own XOR Key.
 var encrypted = xorCrypt('Hello World', 9);
 var decrypted = xorCrypt(encrypted, 9);
 ```
