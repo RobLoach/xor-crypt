@@ -22,12 +22,12 @@
   "use strict";
   /**
    * Encrypt or decrypt a string with the given XOR key.
-	 * @name xorCrypt
    *
+   * @name xorCrypt
    * @param {string} str - The string to encrypt.
    * @param {int} [key=6] - The XOR key to use when encrypting.
-	 *
-	 * @return The resulting XOR'ed string.
+   *
+   * @return The resulting XOR'ed string.
    */
   return function(str, key) {
     var output = "";
