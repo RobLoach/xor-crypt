@@ -55,6 +55,9 @@ Simple XOR string encryption library.
 
 ## Usage
 
+See the [XOR-Crypt demonstration](http://robloach.github.io/xor-crypt/) for a
+live usage of XOR-Crypt.
+
 ``` javascript
 var encrypted = xorCrypt('Hello World');
 // Outputs: Ncjji&Qitjb
