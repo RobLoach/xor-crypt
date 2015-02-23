@@ -1,5 +1,8 @@
 # History
 
+## v0.0.x
+- Updated dependencies
+
 ## v0.0.2 February 3rd, 2015
 - Cleaned documentation
 

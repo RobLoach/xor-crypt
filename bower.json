@@ -15,11 +15,6 @@
   "keywords": [
     "encryption"
   ],
-  "devDependencies": {
-    "eslint": "~0.13.0",
-    "mocha": "~2.1.0",
-    "projectz": "~0.3.17",
-    "uglify-js": "~2.4.16"
-  },
+  "devDependencies": {},
   "dependencies": {}
 }
