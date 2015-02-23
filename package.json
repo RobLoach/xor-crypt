@@ -13,6 +13,12 @@
     "daviddev": true,
     "npmdownloads": true
   },
+  "files": [
+    "xor-crypt.js",
+    "xor-crypt.min.js",
+    "README.md",
+    "LICENSE.md"
+  ],
   "repo": "RobLoach/xor-crypt",
   "homepage": "https://github.com/RobLoach/xor-crypt",
   "author": "Rob Loach (http://github.com/RobLoach)",

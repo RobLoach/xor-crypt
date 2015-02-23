@@ -2,8 +2,8 @@ var assert = require("assert");
 var xorCrypt = require("../");
 
 /**
-* Automated tests for XOR Crypt.
-*/
+ * Automated tests for XOR Crypt.
+ */
 describe("XOR Crypt", function() {
 	"use strict";
 

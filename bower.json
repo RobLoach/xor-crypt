@@ -10,7 +10,8 @@
     "example",
     ".travis.yml",
     ".gitignore",
-    "Gruntfile.js"
+    "Gruntfile.js",
+    "index.html"
   ],
   "keywords": [
     "encryption"
