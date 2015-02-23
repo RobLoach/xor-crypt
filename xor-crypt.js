@@ -20,6 +20,7 @@
   }
 }(this, function () {
   "use strict";
+
   /**
    * Encrypt or decrypt a string with the given XOR key.
    *
@@ -37,6 +38,8 @@
     for (var i = 0; i < str.length; ++i) {
       output += String.fromCharCode(key ^ str.charCodeAt(i));
     }
+
     return output;
   };
+
 }));
