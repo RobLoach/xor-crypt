@@ -1,5 +1,5 @@
 /*!
- * XOR Crypt v0.0.2 - http://github.com/robloach/xor-crypt
+ * XOR Crypt v0.0.3 - http://github.com/robloach/xor-crypt
  * @license MIT
  *   http://opensource.org/licenses/MIT
  */
@@ -10,16 +10,17 @@
  * @see {@link http://github.com/umdjs/umd}
 */
 (function (root, factory) {
-  "use strict";
-  if (typeof define === "function" && define.amd) {
-    define([], factory);
-  } else if (typeof exports === "object") {
-    module.exports = factory();
+  'use strict'
+  /* global define */
+  if (typeof define === 'function' && define.amd) {
+    define([], factory)
+  } else if (typeof exports === 'object') {
+    module.exports = factory()
   } else {
-    root.xorCrypt = factory();
+    root.xorCrypt = factory()
   }
 }(this, function () {
-  "use strict";
+  'use strict'
 
   /**
    * Encrypt or decrypt a string with the given XOR key.
@@ -30,16 +31,18 @@
    *
    * @return The resulting XOR'ed string.
    */
-  return function(str, key) {
-    var output = "";
+  return function xorCrypt (str, key) {
+    var output = ''
+
     if (!key) {
-      key = 6;
+      key = 6
     }
+
     for (var i = 0; i < str.length; ++i) {
-      output += String.fromCharCode(key ^ str.charCodeAt(i));
+      output += String.fromCharCode(key ^ str.charCodeAt(i))
     }
 
-    return output;
-  };
+    return output
+  }
 
-}));
+}))

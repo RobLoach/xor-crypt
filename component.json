@@ -4,7 +4,7 @@
   "homepage": "http://github.com/robloach/xor-crypt",
   "description": "Simple XOR string encryption library.",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "keywords": [
     "encryption"
   ],

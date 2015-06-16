@@ -1,8 +1,8 @@
-# v1.3.21 June 23, 2014
-# https://github.com/bevry/base
 language: node_js
 node_js:
   - "0.10"
+  - "0.12"
+  - "iojs"
 cache:
   directories:
     - node_modules
