@@ -1,5 +1,8 @@
 # History
 
+## v1.0.0
+- Cleaned documentation
+
 ## v0.0.3
 - Improved development tools
 

@@ -3,13 +3,17 @@
 	<head>
 		<title>XOR-Crypt</title>
 		<meta name="description" content="Simple XOR string encryption library.">
+        <style>
+            body {
+                text-align: center;
+                background-color: #ADCCF7;
+            }
+        </style>
 	</head>
 	<body>
-
 		<h1>XOR-Crypt</h1>
 		<p>
-			<a href="http://github.com/robloach/xor-crypt">XOR-Crypt</a> is a simple
-			XOR string encryption library.
+			<a href="http://github.com/robloach/xor-crypt">XOR-Crypt</a> is a simple XOR string encryption library.
 		</p>
 
 		<textarea id="content" rows="6" cols="40">Enter text here, click "XOR-Crypt", and see it encrypt. Click again, and see it translate back.</textarea>
@@ -27,12 +31,5 @@
 				element.value = window.xorCrypt(element.value);
 			});
 		</script>
-
-		<style>
-			body {
-				text-align: center;
-				background-color: #ADCCF7;
-			}
-		</style>
 	</body>
 </html>

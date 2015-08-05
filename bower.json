@@ -2,7 +2,7 @@
   "name": "xor-crypt",
   "homepage": "http://github.com/robloach/xor-crypt",
   "description": "XOR Crypt",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "main": "xor-crypt.js",
   "ignore": [
     "*.json",

@@ -2,7 +2,7 @@
   "name": "xor-crypt",
   "title": "XOR Crypt",
   "description": "Simple XOR string encryption library.",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "keywords": [
     "encryption"
   ],
@@ -36,7 +36,7 @@
     "uglify-js": "~2.4.16"
   },
   "scripts": {
-    "pretest": "standard",
+    "posttest": "standard",
     "test": "node test",
     "build": "uglifyjs xor-crypt.js -o xor-crypt.min.js --comments --mangle",
     "package": "npm install && npm test && npm run build"

@@ -1,5 +1,5 @@
 /*!
- * XOR Crypt v0.0.3 - http://github.com/robloach/xor-crypt
+ * XOR Crypt v1.0.0 - http://github.com/RobLoach/xor-crypt
  * @license MIT
  *   http://opensource.org/licenses/MIT
  */
@@ -8,7 +8,7 @@
  * Universal Module Definition
  *
  * @see {@link http://github.com/umdjs/umd}
-*/
+ */
 (function (root, factory) {
   'use strict'
   /* global define */

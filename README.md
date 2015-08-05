@@ -8,7 +8,6 @@
 
 Simple XOR string encryption library.
 
-
 ## Install
 
 ### [NPM](http://npmjs.org/)
@@ -32,7 +31,6 @@ Simple XOR string encryption library.
 - Use: `require('xor-crypt')`
 - Install: `bower install xor-crypt`
 
-
 ## Usage
 
 See the [XOR-Crypt demonstration](http://robloach.github.io/xor-crypt/) for a
@@ -49,7 +47,6 @@ var decrypted = xorCrypt(encrypted);
 var encrypted = xorCrypt('Hello World', 9);
 var decrypted = xorCrypt(encrypted, 9);
 ```
-
 
 ## Development
 
@@ -73,11 +70,9 @@ Versioning](http://semver.org/):
     git push origin 2.0.0
     npm publish
 
-
 ## History
 
 [Discover the change history by heading on over to the `HISTORY.md` file.](https://github.com/RobLoach/xor-crypt/blob/master/HISTORY.md#files)
-
 
 ## License
 
