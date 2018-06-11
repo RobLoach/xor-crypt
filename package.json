@@ -2,7 +2,7 @@
   "name": "xor-crypt",
   "title": "XOR Crypt",
   "description": "Simple XOR string encryption library.",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "keywords": [
     "encryption"
   ],
@@ -27,7 +27,7 @@
     "url": "https://github.com/RobLoach/xor-crypt/issues"
   },
   "engines": {
-    "node": ">=0.10"
+    "node": ">=4"
   },
   "dependencies": {},
   "devDependencies": {
@@ -38,8 +38,8 @@
   "scripts": {
     "posttest": "standard",
     "test": "node test",
-    "build": "uglifyjs xor-crypt.js -o xor-crypt.min.js --comments --mangle",
-    "package": "npm it && npm run build"
+    "prebuild": "npm it",
+    "build": "uglifyjs xor-crypt.js -o xor-crypt.min.js --comments --mangle"
   },
   "contributors": [
     "Rob Loach (https://github.com/RobLoach)"

@@ -1,5 +1,8 @@
 # History
 
+## v1.1.1
+- Update developer dependencies
+
 ## v1.1.0
 - Update developer dependencies
 
