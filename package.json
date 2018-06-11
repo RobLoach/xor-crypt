@@ -31,15 +31,15 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "standard": "^7.1.2",
-    "testit": "^2.0.2",
-    "uglify-js": "~2.7.0"
+    "standard": "^11.0.1",
+    "testit": "^3.0.0",
+    "uglify-js": "~3.4.0"
   },
   "scripts": {
     "posttest": "standard",
     "test": "node test",
     "build": "uglifyjs xor-crypt.js -o xor-crypt.min.js --comments --mangle",
-    "package": "npm install && npm test && npm run build"
+    "package": "npm it && npm run build"
   },
   "contributors": [
     "Rob Loach (https://github.com/RobLoach)"
