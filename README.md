@@ -1,6 +1,6 @@
 # XOR-Crypt
 
-[![Build Status](https://img.shields.io/travis/RobLoach/xor-crypt/gh-pages.svg)](http://travis-ci.org/RobLoach/xor-crypt "Check this project's build status on TravisCI")
+[![Build Status](https://travis-ci.org/RobLoach/xor-crypt.svg?branch=gh-pages)](https://travis-ci.org/RobLoach/xor-crypt)
 [![NPM version](https://img.shields.io/npm/v/xor-crypt.svg)](https://npmjs.org/package/xor-crypt "View this project on NPM")
 [![NPM downloads](https://img.shields.io/npm/dm/xor-crypt.svg)](https://npmjs.org/package/xor-crypt "View this project on NPM")
 [![Dependency Status](https://img.shields.io/david/RobLoach/xor-crypt.svg)](https://david-dm.org/RobLoach/xor-crypt)
